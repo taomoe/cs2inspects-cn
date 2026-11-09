@@ -27,7 +27,8 @@
     ".catalog-card-price-anchor > div > div { padding-left: 0 !important; padding-right: 0 !important; }",
     ".catalog-card-price-anchor a { padding-left: 4px !important; padding-right: 4px !important; }",
     'a[href*="/ext/container"] > div:has(> [role="img"]) { display: none !important; }',
-    'a[href*="/ext/container"] { padding-left: 4px !important; padding-right: 4px !important; }'
+    'a[href*="/ext/container"] { padding-left: 4px !important; padding-right: 4px !important; }',
+    'a[href^="/ext/top"] { display: none !important; }'
   ].join("\n");
   function injectStyle() {
     if (document.getElementById(STYLE_ID) || !document.documentElement) return;

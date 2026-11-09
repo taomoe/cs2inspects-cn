@@ -9,6 +9,7 @@ const CSS = [
   '.catalog-card-price-anchor a { padding-left: 4px !important; padding-right: 4px !important; }',
   'a[href*="/ext/container"] > div:has(> [role="img"]) { display: none !important; }',
   'a[href*="/ext/container"] { padding-left: 4px !important; padding-right: 4px !important; }',
+  'a[href^="/ext/top"] { display: none !important; }',
 ].join('\n');
 
 export function injectStyle() {
