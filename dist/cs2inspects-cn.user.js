@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         CS2 Inspects 中文皮肤名 / 中文搜索 / 磨损价格
 // @namespace    https://cs2inspects.com/
-// @version      1.0.0
+// @version      1.0.1
 // @description  CS2 Inspects 中文皮肤名、中文搜索、磨损价格下拉、人民币价格与已选饰品持久化
 // @author       taomoe
 // @license      GPL-3.0-or-later

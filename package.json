@@ -1,7 +1,7 @@
 {
   "name": "cs2inspects-cn",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "CS2 Inspects 中文皮肤名、中文搜索、磨损价格下拉、人民币价格与已选饰品持久化",
   "author": "taomoe",
