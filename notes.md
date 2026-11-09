@@ -136,12 +136,12 @@ list = list.filter(item => {
 
 ```js
 TAIL_RULES = [
-  [/\s*\|\s*Phase\s*(\d)\s*$/i, '（阶段 $1）'],
+  [/\s*\|\s*Phase\s*(\d)\s*$/i, '（T$1）'],
   [/\s*\|\s*Black Pearl\s*$/i, '（黑珍珠）'],
   [/\s*\|\s*Sapphire\s*$/i, '（蓝宝石）'],
   [/\s*\|\s*Ruby\s*$/i, '（红宝石）'],
   [/\s*\|\s*Emerald\s*$/i, '（翡翠）'],
-  [/\s*\|\s*Vanilla\s*$/i, ' | 原版'],
+  [/\s*\|\s*Vanilla\s*$/i, ' | 原皮'],
 ];
 ```
 
@@ -301,7 +301,7 @@ https://cdn.jsdelivr.net/gh/ByMykel/CSGO-API@main/public/api/zh-CN/skins.json
 
 网站搜索是纯子串匹配，不支持拼音、别名、简称：
 
-- “苏丹”“印花集”“多普勒”“阶段 1”“原版”可以命中；
+- “苏丹”“印花集”“多普勒”“T1”“原皮”可以命中；
 - “沙鹰”不会命中“沙漠之鹰”；
 - “大狙”不会命中“AWP”。
 
